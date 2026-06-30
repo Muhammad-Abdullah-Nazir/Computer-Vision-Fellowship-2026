@@ -5,7 +5,7 @@ Muhammad Abdullah Nazir
 
 ## 🎓 University
 BS Artificial Intelligence
-The University of Faisalabad
+(The University of Faisalabad)
 
 ## 🚀 Fellowship Track
 Computer Vision
