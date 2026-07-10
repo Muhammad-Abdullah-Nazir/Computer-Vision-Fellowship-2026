@@ -1,0 +1,9 @@
+ultralytics==8.4.90
+torch==2.5.1
+torchvision==0.20.1
+opencv-python==4.9.0.80
+streamlit
+numpy
+Pillow
+roboflow
+matplotlib
