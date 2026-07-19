@@ -1,0 +1,17 @@
+{
+  "run_timestamp": "20260716_095157",
+  "source": "0",
+  "model": "yolov8n.pt",
+  "tracker": "botsort.yaml",
+  "confidence_threshold": 0.3,
+  "frames_processed": 231,
+  "elapsed_seconds": 10.36,
+  "average_fps": 22.29,
+  "total_unique_objects": 5,
+  "objects_in": 3,
+  "objects_out": 4,
+  "zone_final_counts": [],
+  "zone_longest_dwell_seconds": [],
+  "average_confidence": 0.69,
+  "output_video": "output\\annotated_1784177507.mp4"
+}

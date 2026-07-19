@@ -1,0 +1,17 @@
+{
+  "run_timestamp": "20260717_093911",
+  "source": "0",
+  "model": "C:/Users/SS/OneDrive/Desktop/University/Internship/Week 3/yolov8s.pt",
+  "tracker": "bytetrack.yaml",
+  "confidence_threshold": 0.3,
+  "frames_processed": 2950,
+  "elapsed_seconds": 102.74,
+  "average_fps": 28.71,
+  "total_unique_objects": 44,
+  "objects_in": 19,
+  "objects_out": 21,
+  "zone_final_counts": [],
+  "zone_longest_dwell_seconds": [],
+  "average_confidence": 0.746,
+  "output_video": "output\\annotated_1784263048.avi"
+}

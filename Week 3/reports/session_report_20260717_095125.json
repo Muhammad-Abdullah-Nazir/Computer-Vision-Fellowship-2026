@@ -1,0 +1,17 @@
+{
+  "run_timestamp": "20260717_095125",
+  "source": "0",
+  "model": "C:/Users/SS/OneDrive/Desktop/University/Internship/Week 3/yolov8s.pt",
+  "tracker": "botsort.yaml",
+  "confidence_threshold": 0.55,
+  "frames_processed": 844,
+  "elapsed_seconds": 55.72,
+  "average_fps": 15.15,
+  "total_unique_objects": 8,
+  "objects_in": 5,
+  "objects_out": 5,
+  "zone_final_counts": [],
+  "zone_longest_dwell_seconds": [],
+  "average_confidence": 0.847,
+  "output_video": null
+}

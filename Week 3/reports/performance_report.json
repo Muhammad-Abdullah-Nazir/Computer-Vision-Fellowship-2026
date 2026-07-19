@@ -1,0 +1,47 @@
+{
+  "config": {
+    "model": "yolov8s.pt",
+    "tracker": "bytetrack.yaml",
+    "conf": 0.3,
+    "imgsz": 640,
+    "device": "cuda:0",
+    "fp16": true
+  },
+  "frames_processed": 300,
+  "elapsed_seconds": 22.71,
+  "fps": {
+    "average": 13.21,
+    "average_note": "Includes warmup frame(s) \u2014 see inference_time_ms.steady_state for the fairer figure."
+  },
+  "inference_time_ms": {
+    "warmup_frames_excluded": 3,
+    "first_frame_ms": 3398.63,
+    "first_frame_note": "First-call PyTorch/CUDA init cost \u2014 expected to be much larger than steady-state; excluded from averages below.",
+    "steady_state_average": 60.82,
+    "steady_state_p95": 71.91,
+    "steady_state_min": 45.59,
+    "steady_state_max": 75.84,
+    "steady_state_fps_equivalent": 16.44,
+    "all_frames_average_including_warmup": 71.95
+  },
+  "cpu_usage_percent": {
+    "process_avg": 102.86,
+    "process_max": 187.5,
+    "system_avg": 13.49,
+    "num_logical_cores": 12,
+    "note": "process_avg can exceed 100% on a multi-core machine (e.g. 250% = 2.5 cores fully used) \u2014 this is normal psutil behavior, not a bug."
+  },
+  "memory_usage_mb": {
+    "average": 1190.38,
+    "peak": 1270.17,
+    "start": 548.54,
+    "end": 1172.17
+  },
+  "tracking_accuracy_proxies": {
+    "unique_track_ids": 18,
+    "avg_track_length_frames": 50.06,
+    "id_switch_events": 57,
+    "id_switch_rate_per_100_frames": 19.0,
+    "note": "Ground-truth-free proxies, NOT MOTA/IDF1 \u2014 see module docstring."
+  }
+}

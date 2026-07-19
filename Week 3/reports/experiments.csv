@@ -1,0 +1,14 @@
+experiment,variant,conf,resolution,avg_fps,avg_processing_ms,frames_processed,unique_track_ids,avg_objects_per_frame,new_id_events
+tracker_comparison,ByteTrack,0.3,original,12.97,77.07,300,7,3.19,71
+tracker_comparison,BoT-SORT,0.3,original,11.74,85.17,300,7,3.19,71
+confidence_threshold,conf_0.15,0.15,original,13.07,76.48,300,7,3.55,57
+confidence_threshold,conf_0.25,0.25,original,13.02,76.79,300,7,3.55,57
+confidence_threshold,conf_0.35,0.35,original,13.07,76.54,300,5,2.8,51
+confidence_threshold,conf_0.5,0.5,original,13.06,76.56,300,4,2.5,27
+confidence_threshold,conf_0.65,0.65,original,13.01,76.87,300,4,2.32,28
+resolution,240p,0.3,240p,12.15,82.28,300,6,3.0,67
+resolution,480p,0.3,480p,13.01,76.87,300,7,3.3,74
+resolution,720p,0.3,720p,12.95,77.22,300,7,3.19,71
+device_comparison,CPU,0.3,original,5.77,173.45,300,7,3.19,72
+device_comparison,GPU (fp32),0.3,original,25.89,38.63,300,7,3.19,72
+device_comparison,GPU (fp16),0.3,original,28.12,35.56,300,7,3.19,72

@@ -1,0 +1,15 @@
+{
+  "run_timestamp": "20260715_004318",
+  "source": "0",
+  "model": "yolov8n.pt",
+  "tracker": "bytetrack.yaml",
+  "confidence_threshold": 0.3,
+  "frames_processed": 384,
+  "elapsed_seconds": 66.27,
+  "average_fps": 5.79,
+  "total_unique_objects": 7,
+  "objects_in": 0,
+  "objects_out": 0,
+  "zone_final_counts": [],
+  "average_confidence": 0.569
+}
